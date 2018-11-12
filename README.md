@@ -1,4 +1,4 @@
-# AdvancedOS-project2
+# Broadcast service in a distributed system
 
 ## Description
 
@@ -18,17 +18,9 @@ Each node should also output any broadcast message it sends or receives.
 
 ## Configuration Example
     
-    # number of nodes
-    5
-    # nodeID, host address, port
-    0 dc02.utdallas.edu 1234
-    1 dc03.utdallas.edu 1233
-    2 dc04.utdallas.edu 1233
-    3 dc05.utdallas.edu 1232
-    4 dc06.utdallas.edu 1233
-    # nodeID, IDs of the direct neighbors
-    0 1 2 4
-    1 0 2 3
-    2 0 1 3
-    3 1 2
-    4 0
+   # Hostname   Port    Neighbor List
+    dc01        3332    2 4 5
+    dc33        5678    1 3
+    dc21        5231    2 4 5
+    dc33        2311    1 3 5
+    dc22        3124    1 3 4
