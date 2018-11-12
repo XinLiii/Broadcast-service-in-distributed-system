@@ -1,0 +1,14 @@
+# number of nodes
+5
+# nodeID, host address, port
+0 dc02.utdallas.edu 12241
+1 dc03.utdallas.edu 12242
+2 dc04.utdallas.edu 12243
+3 dc05.utdallas.edu 12246
+4 dc06.utdallas.edu 12245
+# nodeID, IDs of the direct neighbors
+0 1 2 4
+1 0 2 3
+2 0 1 3
+3 1 2
+4 0
